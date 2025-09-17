@@ -1,0 +1,15 @@
+// tsconfig.json
+{
+  "compilerOptions": {
+    "target": "ES2020",         // Compile to a modern JavaScript version
+    "module": "NodeNext",        // Use the modern module system for Node.js
+    "moduleResolution": "NodeNext",
+    "outDir": "./dist",          // Where to put the compiled .js files
+    "rootDir": "./src",          // Where your source .ts files are
+    "strict": true,              // Enable all strict type-checking options
+    "esModuleInterop": true,     // Allows better compatibility between module types
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*"]      // Only compile files in the 'src' directory
+}
